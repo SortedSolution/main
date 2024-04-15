@@ -1,0 +1,271 @@
+body {
+    margin : 0px;
+    padding : 0px;
+    background-color: rgba(245, 243, 243, 0.78);
+}
+
+#top {
+    height: 20%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap : 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#right {
+    margin-right : 20px;
+}
+
+#t-img {
+    margin-top : 0.5%;
+    margin-left : 1%;
+}
+
+#fontlogo {
+    margin-bottom : 10%;
+}
+
+#maincss {
+    display: flex;
+    justify-content: center;
+}
+
+#main {
+    margin-top : 5%;
+    background-color: #FFFFFF;
+    height: 140vh;
+    width : 80vw;
+}
+
+#sendpoint {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap : 20%;
+    background-color: #E8E8E8;
+    width: 61vw;
+    margin-top : 8%;
+    margin-left : 12%;
+    border-radius : 10px;
+}
+
+#sendpoint button {
+    margin-top : 0.7%;
+    border-radius: 10px;
+    height: 4vh;
+}
+
+#sendpoint img {
+    margin-top : 0.7%;
+    border-radius: 10px;
+    height: 4vh;
+}
+
+#tumblerAB {
+    margin-top : 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 8%;
+}
+
+
+#tumblerA {
+    background-color: #344E41;
+    border : solid 1px black;
+    border-radius : 10px;
+    height: 30vh;
+    width: 27vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+#tumblerA h1 {
+    color : #FFFFFF;
+}
+#tumblerA p {
+    color : #E8E8E8;
+}
+#tumblerA button {
+    color : #E8E8E8;
+    background-color: transparent;
+    border : 1px solid #FFFFFF;
+    border-radius : 5px;
+}
+#tumblerB {
+    background-color: #344E41;
+    border : solid 1px black;
+    border-radius : 10px;
+    height: 30vh;
+    width: 27vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#tumblerB h1 {
+    color : #FFFFFF;
+    font-size: 2rem;
+}
+#tumblerB p {
+    color : #E8E8E8;
+}
+#tumblerB button {
+    color : #E8E8E8;
+    background-color: transparent;
+    border : 1px solid #FFFFFF;
+    border-radius : 5px;
+}
+#echoplastic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ecoback {
+    border : solid 1px black;
+    border-radius : 10px;
+    background-color: #FFFFFF;
+    height: 30vh;
+    width: 61vw;
+    margin-top : 5%;   
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: center;
+    gap : 15%;
+}
+
+#ecoback p{
+    color : #787878;
+}
+#ecoback button {
+    color : #787878;
+    background-color: transparent;
+    border-radius: 5px;
+    border : 1px solid #787878;
+}
+
+#plastic {
+    border : solid 1px black;
+    border-radius : 10px;
+    background-color: #DAD7CD;
+    height: 30vh;
+    width: 61vw;
+    margin-top : 5%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: center;
+    gap : 15%;
+    color : #FFFFFF;
+}
+
+#plastic p {
+    color : #F3F3F3;
+}
+#plastic button {
+    background-color: transparent;
+    border-radius: 5px;
+    border : 1px solid #FFFFFF;
+}
+
+.circleone {
+    border : 1px solid #000000;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    height: 1.1vh;
+    width: 0.6vw;
+    margin-left : 7rem;
+    margin-top : 1rem;
+
+}
+
+.circletwo {
+    border : 1px solid #3A5A40;
+    background-color: #3A5A40;
+    border-radius: 100%;
+    height: 1.1vh;
+    width: 0.6vw;
+    margin-left : 7rem;
+    margin-top : 1rem;
+}
+
+.circlethree {
+    border : 1px solid #588157;
+    background-color: #588157;
+    border-radius: 100%;
+    height: 1.1vh;
+    width: 0.6vw;
+    margin-left : 7rem;
+    margin-top : 1rem;
+}
+
+.circlefour {
+    border : 1px solid #FFFFFF;
+    background-color: #A3B18A;
+    border-radius: 100%;
+    height: 1.1vh;
+    width: 0.6vw;
+    margin-left: 7rem;
+    margin-top : 1rem;
+}
+
+
+footer {
+    margin-top : 5%;
+}
+
+#footmargin {
+    margin-top : 3%;
+    margin-left : 3%;
+}
+
+.input-wrapper {
+    margin-top : 2%;
+    margin-bottom: 3%;
+    position: relative;
+    display: inline-block;
+}
+
+.input-wrapper input {
+    padding-left : 1%;
+    padding-right: 50px; 
+    width: 86vw; 
+    height: 40px; 
+    border-radius: 10px;
+}
+
+.input-wrapper button {
+    position: absolute;
+    right: 2%;
+    top: 50%; 
+    transform: translateY(-50%); 
+    height: 30px; 
+}
+
+.footfont {
+    color: #787878;
+    display: flex;
+    gap : 20px;
+}
+
+#lastfooter {
+    color : #BBBBBB;
+    font-size: 2%;
+    margin-bottom: 2%;
+}
