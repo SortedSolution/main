@@ -4,39 +4,6 @@ body {
     background-color: rgba(245, 243, 243, 0.78);
 }
 
-#top {
-    height: 20%;
-    width: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.middle {
-    font-size: 20px;
-    display: flex;
-    flex-direction: row;
-    gap : 30px;
-}
-
-a {
-    text-decoration: none;
-}
-
-#right {
-    margin-right : 20px;
-}
-
-#t-img {
-    margin-top : 0.5%;
-    margin-left : 1%;
-}
-
-#fontlogo {
-    margin-bottom : 10%;
-}
-
 #main {
     display: flex;
     position: relative;
@@ -94,7 +61,7 @@ a {
     background-color: green; 
 }
 
-#maincontainer {
+.maincontainer {
     display: flex;
     flex-direction: column;
     width: 80%; 
@@ -103,7 +70,7 @@ a {
  
 }
 
-#addpost {
+.addpost {
     background-color: #FFFFFF;
     height: 18vh;
     width: 50vw;
@@ -112,14 +79,14 @@ a {
     flex-direction: column;
     
 }
-#addposttop {
+.addposttop {
     width: 100%;
     display: flex;
     flex-direction: row;
     margin-top : 3%;
     margin-left : 2%; 
 }
-#addposttop p {
+.addposttop p {
     margin-left : 2%;
     margin-top : 3%;
 }
@@ -151,39 +118,41 @@ a {
 #canbutton {
     background-color: #588157;
 }
-#newhr {
+.newhr {
     width : 50vw;
 }
-#com1 {
+.com1 {
     background-color: #FFFFFF;
     height: 68vh;
     width: 50vw;
     border : solid 1px black;
 }
 
-#com1top {
+.com1top {
     width: 100%;
     display: flex;
     flex-direction: row;
     margin-top : 3%;
     margin-left : 2%; 
 }
-#com1toptxt {
+.com1toptxt {
     display: flex;
     flex-direction: column;
     margin-top : -2%;
     margin-left : 3%;
 }
-#com1toptxt p {
+.com1toptxt p {
     margin-top : -20%;
+    color : #707070;
 }
-#com1top img {
+.com1top img {
     height: 7vh;
     width: 55px;
 }
-#com1middle {
+.com1middle {
     margin-left : 5%;
     margin-top : -2%;
+    color : #191919;
 }
 #com1picture {
     width: 100%;
@@ -206,36 +175,38 @@ a {
     margin-top : 10%;
     
 }
-#com2 {
+.com2 {
     margin-top : 3%;
     background-color: #FFFFFF;
     height: 68vh;
     width: 50vw;
     border : solid 1px black;
 }
-#com2top {
+.com2top {
     width: 100%;
     display: flex;
     flex-direction: row;
     margin-top : 3%;
     margin-left : 2%; 
 }
-#com2toptxt {
+.com2toptxt {
     display: flex;
     flex-direction: column;
     margin-top : -2%;
     margin-left : 3%;
 }
-#com2toptxt p {
+.com2toptxt p {
     margin-top : -20%;
+    color : #707070;
 }
-#com2top img {
+.com2top img {
     height: 7vh;
     width: 55px;
 }
-#com2middle {
+.com2middle {
     margin-left : 5%;
     margin-top : -2%;
+    color : #191919
 }
 #com2picture {
     width: 100%;
@@ -256,52 +227,4 @@ a {
 }
 .com2bottom p {
     margin-top : 10%;
-}
-
-.rowline {
-    width: 2px;
-    height: 80%;
-    background-color: black;
-}
-#hrmargin {
-    margin-top : 4%;
-}
-#footmargin {
-    margin-top : 3%;
-    margin-left : 3%;
-}
-
-.input-wrapper {
-    margin-top : 2%;
-    margin-bottom: 3%;
-    position: relative;
-    display: inline-block;
-}
-
-.input-wrapper input {
-    padding-left : 1%;
-    padding-right: 50px; 
-    width: 86vw; 
-    height: 40px; 
-    border-radius: 10px;
-}
-
-.input-wrapper button {
-    position: absolute;
-    right: 2%;
-    top: 50%; 
-    transform: translateY(-50%); 
-    height: 30px; 
-}
-
-.footfont {
-    color: #787878;
-    display: flex;
-    gap : 20px;
-}
-
-#lastfooter {
-    color : #BBBBBB;
-    font-size: 2%;
-    margin-bottom: 2%;
 }
