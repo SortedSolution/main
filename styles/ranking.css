@@ -1,0 +1,235 @@
+body {
+    margin : 0px;
+    padding : 0px;
+    background-color: rgba(245, 243, 243, 0.78);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.bigblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin-top : 15%;
+    height: 120%;
+    width: 80%;
+    border : solid 1px black;
+    
+}
+.topIcon {
+    margin-left : 70%;
+}
+.topIcon p {
+    display: inline-block;
+    margin-right : 7px;
+}
+.topIcon img {
+    display: inline-block;
+}
+.boxranking {
+    display: flex;
+    margin-top : 3%;
+    gap : 3%;
+}
+.myranking {
+    border : solid 1px black;
+    height: 23vh;
+    width: 15vw;
+    border-radius: 5%;
+}
+.universityranking {
+    border : solid 1px black;
+    height: 23vh;
+    width: 15vw;
+    border-radius: 5%;
+}
+.collegeranking {
+    border : solid 1px black;
+    height: 30vh;
+    width: 20vw;
+    border-radius: 5%;
+}
+.departmentranking {
+    border : solid 1px black;
+    height: 23vh;
+    width: 15vw;
+    border-radius: 5%;
+}
+.boxtop {
+    position: relative;
+    height: 65%;
+    background-color: #BBBBBB;
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;
+}
+.collegeranking .boxtop {
+    background-color: #FFFFFF;
+  }
+
+.topdiv {
+    position: absolute;
+    top : 15%;
+    left : 10%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.topmiddlediv {
+    position: absolute;
+    top : 45%;
+    left : 10%;
+    color : #787878;
+    font-size : 20px;
+}
+.topmiddlediv span{
+    color : #3A5A40;
+}
+.firstmedal {
+    position: absolute;
+    top : 65%;
+    left : 10%;
+}
+.collegeranking .firstmedal img{
+    height: 50px;
+    width: 50px;
+}
+
+.bottomdiv {
+    color : #FFFFFF;
+    margin-left : 4%;
+    padding-top : 3%;
+    font-size : 20px;
+    font-weight: bold;
+}
+.bottommiddlediv{
+    color : #FFFFFF;
+    margin-left : 4%;
+    padding-top : 6%;
+    font-size: 20px;
+}
+
+.myrankingbottom, .universitybottom, .collegebottom, .departmentbottom {
+    height: 35%;
+    border-bottom-left-radius: 6%;
+    border-bottom-right-radius: 6%;
+}
+
+.myrankingbottom {
+    background-color: #344E41;
+}
+
+.universitybottom {
+    background-color: #3A5A40;
+}
+
+.collegebottom {
+    background-color: #588157;
+}
+
+.departmentbottom {
+    background-color: #A3B18A;
+}
+
+.range{ 
+    margin-top : 5%;
+    width: 100%;
+    text-align: center;
+}
+.range input[type=range] {
+    width : 80%;
+    outline: black;
+    cursor : pointer;
+}
+.rankingbottom {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap : 2%;
+    margin-top : 5%;
+}
+.graph {
+    width: 40%;
+    height: 80%;
+    border: 1px solid #000;
+    position: relative;
+    background-color: #f3f3f3;
+  }
+  
+  .graph-title {
+    position: absolute;
+    top: 2%;
+    margin: 10px;
+    font-size: 12px;
+  }
+  
+  .bar {
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .bar > div {
+    width: 75px;
+    background-color: #BBBBBB;
+    text-align: center;
+  }
+  
+  .bar:nth-child(1) {
+    left: 0%;
+  }
+  
+  .bar:nth-child(2) {
+    left: 27%;
+  }
+  
+  .bar:nth-child(3) {
+    left: 53%;
+  }
+  
+  .bar:nth-child(4) {
+    left: 80%;
+  }
+  
+  .bar:nth-child(1) div {
+    height: 40%;
+  }
+  
+  .bar:nth-child(2) div {
+    height: 60%;
+  }
+  
+  .bar:nth-child(3) div {
+    height: 80%;
+    background-color: green;
+  }
+  
+  .bar:nth-child(4) div {
+    height: 50%;
+  }
+  
+  .statistics {
+    background-color: #F3F3F3;
+    height: 80%;
+    width: 40%;
+  }
+
+
+#justmargin {
+    margin-top : 20%;
+}
