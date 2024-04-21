@@ -1,12 +1,164 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
+    <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="./styles/main.css">
+    <link rel="stylesheet" type="text/css" href="./styles/menu.css">
+    <link rel="stylesheet" type="text/css" href="./styles/home.css">
 </head>
 <body>
-    
+    <div class="menu-wrap">
+        <div class="menu-icon-left">
+            <div class="main-icon">
+                <div class="main-icon-img">
+                    <img src="./assets/icon/logo-inner.svg"/>
+                </div>
+                <div class="main-icon-text">
+                    <span><mark>똑</mark>똑한 사람들의</span>
+                    <span><mark>똑</mark>똑한</span>
+                    <span><mark>쓰</mark>레기버리기</span>
+                </div>
+            </div>
+        </div>
+        <div class="menu-content">
+            <span><a href="./pages/rankingPage.html">랭킹</a></span>
+            <span><a href="./pages/communityPage.html">게시판</a></span>
+            <span><a href="./pages/examplePage.html">소식</a></span>
+            <span><a href="./pages/sortedPage.html">도움받기</a></span>
+            <span><a href="./pages/goodsPage.html">상품</a></span>
+            <span><a href="./pages/introductionPage.html">서비스 소개</a></span>
+        </div>
+        <div class="menu-icon-right">
+            <img src="./assets/icon/menu-user.svg"/>
+            <img src="./assets/icon/menu-lang.svg"/>
+            <img src="./assets/icon/menu-alarm.svg"/>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="content-center">
+            <div class="user-rank">
+                <div class="user layout-box">
+                    <div class="user-top">
+                        <div class="user-icon">
+                            <img src="./assets/icon/user-icon.svg" alt="">
+                        </div>
+                        <span class="user-name">김똑똑</span>
+                        <span class="user-subtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit,</span>
+                    </div>
+                    <div class="user-middle">
+                        <div class="user-text">
+                            <img src="./assets/icon/user-position.svg" alt="">
+                            <span>경기도 똑똑시</span>
+                        </div>
+                        <div class="user-text">
+                            <img src="./assets/icon/user-school.svg" alt="">
+                            <span>똑똑대학교 똑똑공학 똑똑학과</span>
+                        </div>
+                        <div class="user-text">
+                            <img src="./assets/icon/user-point.svg" alt="">
+                            <span>150</span>
+                        </div>
+                    </div>
+                    <div class="user-bottom">
+                        <div class="user-set">
+                            <img src="./assets/icon/user-logout.svg" alt="">
+                            <span>로그아웃</span>
+                        </div>
+                        <div class="user-set">
+                            <img src="./assets/icon/user-write.svg" alt="">
+                            <span>정보 수정</span>
+                        </div>
+                        <div class="user-set">
+                            <img src="./assets/icon/user-setting.svg" alt="">
+                            <span>설정</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="rank layout-box">
+                    <div class="rank-box">
+                        <div class="rank-box-top">
+                            <span class="rank-span-num"><mark>130</mark> 등</span>
+                            <span class="rank-span-text"><mark style="color: #344e41;">나</mark>의 순위</span>
+                        </div>
+                        <div class="rank-box-bottom" style="background-color: #344e41;">
+                            <div>
+                                <span class="rank-box-point">150</span>
+                                <img src="./assets/icon/rankbox-trash.svg" alt="">
+                            </div>
+                            <div>
+                                <img src="./assets/icon/rankbox-nametag.svg" alt="">
+                                <span class="rank-box-nametag">김똑똑</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="rank-box">
+                        <div class="rank-box-top">
+                            <span class="rank-span-num"><mark>13</mark> 등</span>
+                            <span class="rank-span-text"><mark style="color: #3a5a40;">우리 학교</mark>의 순위</span>
+                        </div>
+                        <div class="rank-box-bottom" style="background-color: #3a5a40;">
+                            <div>
+                                <span class="rank-box-point">15000</span>
+                                <img src="./assets/icon/rankbox-trash.svg" alt="">
+                            </div>
+                            <div>
+                                <img src="./assets/icon/rankbox-nametag.svg" alt="">
+                                <span class="rank-box-nametag">똑똑대학교</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="rank-box">
+                        <div class="rank-box-top">
+                            <span class="rank-span-num"><mark>2</mark> 등</span>
+                            <span class="rank-span-text"><mark style="color: #588157;">우리 단과대</mark>의 순위</span>
+                        </div>
+                        <div class="rank-box-bottom" style="background-color: #588157;">
+                            <div>
+                                <span class="rank-box-point">3000</span>
+                                <img src="./assets/icon/rankbox-trash.svg" alt="">
+                            </div>
+                            <div>
+                                <img src="./assets/icon/rankbox-nametag.svg" alt="">
+                                <span class="rank-box-nametag">똑똑공학</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="rank-box">
+                        <div class="rank-box-top">
+                            <span class="rank-span-num"><mark>2</mark> 등</span>
+                            <span class="rank-span-text"><mark style="color: #a3b18a;">우리학과</mark>의 순위</span>
+                        </div>
+                        <div class="rank-box-bottom" style="background-color: #a3b18a;">
+                            <div>
+                                <span class="rank-box-point">900</span>
+                                <img src="./assets/icon/rankbox-trash.svg" alt="">
+                            </div>
+                            <div>
+                                <img src="./assets/icon/rankbox-nametag.svg" alt="">
+                                <span class="rank-box-nametag">똑똑학과</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="help-community">
+                <div class="help layout-box">
+
+                </div>
+                <div class="community layout-box" style="background-color: transparent;">
+
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
