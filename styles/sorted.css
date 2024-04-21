@@ -37,11 +37,6 @@
     background-color: green; 
 }
 
-.rowline {
-    width: 2px;
-    height: 80%;
-    background-color: black;
-}
 
 .box1 {
     border : 1px solid black;
