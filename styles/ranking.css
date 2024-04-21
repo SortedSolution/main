@@ -225,10 +225,10 @@ body {
   
   .statistics {
     background-color: #F3F3F3;
-    position: relative;
-    align-items: center;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    position: relative;
     height: 80%;
     width: 40%;
   }
