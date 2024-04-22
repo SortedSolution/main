@@ -1,6 +1,11 @@
+body {
+    margin : 0;
+    
+}
+
 #service {
     height: 55vw;
-    width: 100%;
+    width: 101%;
     background-color: #344E41;
     position: relative;
     display: flex;
@@ -48,7 +53,7 @@
 }
 
 
-#community {
+.community {
     border : solid 1px;
     height: 55vw;
     width: 100%;
@@ -56,36 +61,41 @@
     text-align: center;   
 }
 
-#community h1 {
+
+.community h1 {
     margin : 4%;
     color : #FFFFFF;
 }
 
-#community p {
+.community p {
     margin : 3%;
     color : #F3F3F3;
 }
 
-#community h3 {
-    margin-top : 10%;
+.community h3 {
+    margin-top : 8%;
     color : #BBBBBB;
 }
+.communityimg {
+    height: 50%;
+    width: 50%;
+}
 
-#ranking {
+.ranking {
     border : solid 1px;
     height: 55vw;
     width: 100%;
     background-color: #FFFFFF;
     text-align: center;
 }
-#ranking h1 {
+.ranking h1 {
     margin-top : 5%;
     color : #787878;
 }
-#ranking p {
+.ranking p {
     color : #787878;
 }
-#ranking h3 {
+.ranking h3 {
     color : #BBBBBB;
     margin : 35%;
 }
@@ -117,7 +127,7 @@
     margin-top : 10%;
 }
 
-#sorted {
+.sorted {
     border : solid 1px;
     height: 55vw;
     width: 100%;
@@ -126,17 +136,17 @@
     position: relative;
 }
 
-#sorted h1 {
+.sorted h1 {
     margin : 4%;
     color : #FFFFFF;
 }
 
-#sorted p {
+.sorted p {
     margin : 3%;
     color : #F3F3F3;
 }
 
-#sorted h3 {
+.sorted h3 {
     position: absolute;
     bottom :5%;
     left : 42%;
@@ -162,7 +172,7 @@
     margin-top : 25%;
 }
 
-#pointstore {
+.pointstore {
     border : solid 1px;
     height: 55vw;
     width: 100%;
@@ -176,13 +186,13 @@
     color : #FFFFFF;
 }
 
-#pointstore  p {
+.pointstore  p {
     margin : 3%;
     font-size: 1.3rem;
     color : #F3F3F3;
 }
 
-#pointstore img {
+.pointstore img {
     margin-top: 2%;
     height: 50vh;
     position: absolute;
