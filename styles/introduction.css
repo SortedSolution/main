@@ -1,9 +1,10 @@
 body {
     margin : 0;
+    padding: 0;
     
 }
 
-#service {
+.service {
     height: 55vw;
     width: 101%;
     background-color: #344E41;
@@ -31,7 +32,7 @@ body {
     height: 40px;
 }
 
-#bottom-text {
+.service-bottom-text {
     align-self: flex-end; 
     position: absolute;
     bottom : 8%;
@@ -40,27 +41,106 @@ body {
     font-size: 30px;
 }
 
-#service img { 
+.bottom-text img { 
     max-width: 20%; 
     height: auto;
 }
 
-#point {
+.point {
     border : solid 1px;
     height: 55vw;
     width: 100%;
     background-color: #FFFFFF;
 }
+.pointmiddle {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.pointbackimg {
+    position: absolute;
+    top : 20%;
+    left : 13%;
+}
+.pointfrontimg {
+    position: absolute;
+    top : 17%;
+    left : 11%;
+}
+.pointrightArrow {
+    position: absolute;
+    top : 57%;
+    right : 20%;
+}
+.pointrighttext {
+    position : absolute;
+    top : 53%;
+    right : 10%;
+    text-align: center;
+    color : #787878;
+    font-size: 16px;
+}
+.pointmiddletext {
+    position: absolute;
+    top : 25%;
+    left : 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 
+.point h3 {
+    position: absolute;
+    bottom :5%;
+    left : 45%;
+    color : #BBBBBB;
+}
+.titlep {
+    color : #1E1E1E;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom : 1%;
+}
+.titlediscription {
+    color : #BBBBBB;
+    font-size: 15px;
+}
 
+.pointmiddletext hr {
+    width: 10%;
+    color : #344E41;
+}
+.pointmaintext {
+    color : #787878;
+    text-align: center;
+    font-size: 16px;
+}
 .community {
     border : solid 1px;
     height: 55vw;
     width: 100%;
     background-color: #588157;
     text-align: center;   
+    position: relative;
 }
+.communityimgtotextone {
+    position: absolute;
+    height: 1%;
+    width: 8%;
+    top : 36%;
+    left : 70%;
+    z-index: 1;
 
+}
+.communityimgtotexttwo {
+    position: absolute;
+    height: 1%;
+    width: 8%;
+    top : 50%;
+    left : 70%;
+    z-index: 1;
+
+}
 
 .community h1 {
     margin : 4%;
@@ -81,12 +161,28 @@ body {
     width: 50%;
 }
 
+.community-text-container { 
+    display: flex;
+    flex-direction: column; 
+    position: absolute;
+    width: 20%;
+    right : 0;
+    top: 22%; 
+    margin: 5%;
+    color : #787878;
+}
+
+.community-secondp {
+    margin-top : 5%;
+}
+
 .ranking {
     border : solid 1px;
     height: 55vw;
     width: 100%;
     background-color: #FFFFFF;
     text-align: center;
+    position: relative;
 }
 .ranking h1 {
     margin-top : 5%;
@@ -97,7 +193,7 @@ body {
 }
 .ranking h3 {
     color : #BBBBBB;
-    margin : 35%;
+    margin-top : 35%;
 }
 .rankingmiddle {
     display: flex;
@@ -106,7 +202,27 @@ body {
     margin-top : 5%;
     position: relative;
 }
-.rankingmiddle img{
+.rankingimgtotextone {
+    position: absolute;
+    height: 1%;
+    width: 12%;
+    top : 40%;
+    left : 50%;
+    z-index: 1;
+}
+.rankingimgtotexttwo {
+    position: absolute;
+    height: 1%;
+    width: 11%;
+    top : 60%;
+    left : 51%;
+    z-index: 1;
+}
+.rankingimgshadow img {
+    display: block;
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.rankingmainimg{
     height: 45vh;
     width: 45vw;
     position: absolute;
@@ -123,10 +239,13 @@ body {
     color : #787878;
 }
 
-#ranking-secondp {
-    margin-top : 10%;
+.ranking-secondp {
+    margin-top : 14%;
 }
-
+.downarrow {
+    height: 20px;
+    width: 20px;
+}
 .sorted {
     border : solid 1px;
     height: 55vw;
@@ -134,6 +253,22 @@ body {
     background-color: #A3B18A;
     text-align: center;   
     position: relative;
+}
+.sortedimgtotextone {
+    position: absolute;
+    top : 46%;
+    left : 28%;
+    height: 1%;
+    width: 8%;
+    z-index: 1;
+}
+.sortedimgtotexttwo {
+    position: absolute;
+    top : 60%;
+    left : 30%;
+    height: 1%;
+    width: 14%;
+    z-index: 1;
 }
 
 .sorted h1 {
@@ -180,7 +315,6 @@ body {
     text-align: center;   
     position: relative;
 }
-
 #pointstore  h1 {
     margin : 4%;
     color : #FFFFFF;
@@ -206,3 +340,25 @@ body {
     text-align: left;
     font-size: 1.4rem;
 }
+.pointstorelink {
+    position: absolute;
+    top : 30%;
+    left : 59%;
+    z-index: 1;
+    border : solid 0.2px #1E1E1E;
+    background-color: #1E1E1E;
+    width: 6%;
+    height: 0.2px;
+    transform: rotate(-25deg);
+}
+.pointstorecircle {
+    position: absolute;
+    top : 32%;
+    left : 59.1%;
+    z-index: 2;
+    border : solid 0.2px #1E1E1E;
+    background-color: #1E1E1E;
+    border-radius: 50%;
+    height: 0.5%;
+    width: 0.3%;
+}   
