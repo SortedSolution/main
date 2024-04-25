@@ -18,7 +18,7 @@ body {
     align-items: center;
     background-color: #FFFFFF;
     margin-top : 15%;
-    height: 120%;
+    height: 110%;
     width: 80%;
     border : solid 1px black;
     
@@ -35,7 +35,7 @@ body {
 }
 .boxranking {
     display: flex;
-    margin-top : 3%;
+    margin-top : 1%;
     gap : 3%;
 }
 .myranking {
@@ -43,12 +43,14 @@ body {
     height: 23vh;
     width: 15vw;
     border-radius: 5%;
+    margin-top : 3%;
 }
 .universityranking {
     border : solid 1px black;
     height: 23vh;
     width: 15vw;
     border-radius: 5%;
+    margin-top : 3%;
 }
 .collegeranking {
     border : solid 1px black;
@@ -61,6 +63,7 @@ body {
     height: 23vh;
     width: 15vw;
     border-radius: 5%;
+    margin-top : 3%;
 }
 .boxtop {
     position: relative;
@@ -142,9 +145,22 @@ body {
     text-align: center;
 }
 .range input[type=range] {
-    width : 80%;
-    outline: black;
-    cursor : pointer;
+    -webkit-appearance: none; 
+    width: 80%;
+    height: 20px; 
+    background: #ddd;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
+    cursor: pointer;
+}
+.range input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    width: 300px; 
+    height: 10px; 
+    border-radius: 10px;
+    background: #588157; 
+    cursor: pointer;
 }
 .rankingbottom {
     display: flex;
@@ -156,10 +172,17 @@ body {
 }
 .graph {
     width: 40%;
-    height: 80%;
-    border: 1px solid #000;
+    height: 90%;
+    border: 1px solid #FFF;
+    border-radius: 20px;
     position: relative;
     background-color: #f3f3f3;
+  }
+  .graph .grid-line {
+    position: absolute;
+    width: 84%;
+    border-top: 1px solid #AAA; 
+    left : 8%;
   }
   
   .graph-title {
@@ -191,7 +214,7 @@ body {
   }
   
   .bar:nth-child(1) {
-    left: 0%;
+    left: 5%;
   }
   
   .bar:nth-child(2) {
@@ -199,19 +222,19 @@ body {
   }
   
   .bar:nth-child(3) {
-    left: 53%;
+    left: 51%;
   }
   
   .bar:nth-child(4) {
-    left: 80%;
+    left: 75%;
   }
   
   .bar:nth-child(1) div {
-    height: 40%;
+    height: 20%;
   }
   
   .bar:nth-child(2) div {
-    height: 60%;
+    height: 40%;
   }
   
   .bar:nth-child(3) div {
@@ -220,14 +243,163 @@ body {
   }
   
   .bar:nth-child(4) div {
-    height: 50%;
+    height: 30%;
   }
   
   .statistics {
     background-color: #F3F3F3;
-    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 90%;
     width: 40%;
+    border-radius : 20px;
   }
+  .statone {
+    position: absolute;
+    top : 2%;
+    left : 2%;
+    color : #787878
+}
+.stattwo {
+    position: absolute;
+    top : 10%;
+    border : solid 1px white;
+    background-color: white;
+    border-radius : 7px;
+    margin-bottom : 2%;
+    height: 20%;
+    width: 80%;
+}
+.stattwofirstline {
+    margin-top : 2%;
+    margin-left : 2%;
+}
+.starright {
+    font-size: 9px;
+} 
+.starleft {
+    font-size: 23px;
+}
+.stattwosecondline {
+    margin-top : 4%;
+    margin-left : 2%;
+}
+.secondlineright {
+    margin-left : 65%;
+    font-size: 30px;
+    color : #588157;
+}
+.statthree {
+    position: absolute;
+    top : 34%;
+    border : solid 1px white;
+    background-color: white;
+    border-radius : 5px;
+    margin-bottom : 2%;
+    height: 48%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap : 8%;
+}
+.circle {
+    width: 180px; 
+    height: 180px; 
+    border-radius: 50%; 
+    background: #D9D9D9; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+  }
+  
+  .donut {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: relative;
+    background: transparent;
+  }
+  
+  .donut::before {
+    content: "";
+    position: absolute;
+    top : -2%;
+    left : -2%;
+    width: 105%;
+    height: 105%;
+    border-radius: 50%;
+    background: conic-gradient(#588157 0deg, #588157 234deg, transparent 234deg, transparent);
+    clip-path: circle(50% at 50% 50%); 
+  }
+  
+  .donut::after {
+    content: "";
+    position: absolute;
+    width: 60px; 
+    height: 60px;
+    background: #D9D9D9;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+  }
+  .percentage {
+    position: absolute;
+    color: #588157; 
+    font-size: 12px; 
+    font-weight: bold; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;;
+  }
+  .circletext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .bottomtext {
+    color : #787878;
+    text-align: left;
+    
+  }
+  .toplefttext {
+    color : #BBBBBB;
+    font-size: 15px;
+  }
+  .toprighttext {
+    font-weight: bold;
+    color : #000;
+    font-size : 20px;
+    margin-left : 5%;
+  }
+  
+.statfour {
+    position: absolute;
+    top : 86%;
+    border : solid 1px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius : 5px;
+    height: 8%;
+    width: 80%;
+}
+.statfour span{
+    margin-right : 2%;
+    color : #787878;
+}
+
 
 
 #justmargin {
