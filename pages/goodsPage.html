@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>goods</title>
     <link rel="stylesheet" href="../styles/goods.css">
+    <link rel="stylesheet" href="../styles/main.css">
     <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="../styles/menu.css">
     <link rel="stylesheet" href="../styles/footer.css">
@@ -25,12 +26,12 @@
                 </div>
             </div>
             <div class="menu-content">
-                <span><a href="./rankingPage.html">랭킹</a></span>
-                <span><a href="./communityPage.html">게시판</a></span>
-                <span><a href="./examplePage.html">소식</a></span>
-                <span><a href="./sortedPage.html">도움받기</a></span>
-                <span><a href="./goodsPage.html">상품</a></span>
-                <span><a href="./introductionPage.html">서비스 소개</a></span>
+                <span><a href="./rankingPage.html" style="color: #D9D9D9;">랭킹</a></span>
+                <span><a href="./communityPage.html" style="color: #D9D9D9;">게시판</a></span>
+                <span><a href="./examplePage.html" style="color: #D9D9D9;">소식</a></span>
+                <span><a href="./sortedPage.html" style="color: #D9D9D9;">도움받기</a></span>
+                <span><a href="./goodsPage.html" style="border-bottom: 2px solid #344E41;">상품</a></span>
+                <span><a href="./introductionPage.html" style="color: #D9D9D9;">서비스 소개</a></span>
             </div>
             <div class="menu-icon-right">
                 <img src="../assets/icon/menu-user.svg"/>
@@ -39,109 +40,122 @@
             </div>
         </div>
     </div>
-    <div id="maincss">
-        <div class ="main">
-            <div class ="sendpoint">
-                <img src = "../assets/plant.png" alt = "화분">
-                <p>더 나은 발전을 위해 똑똑쓰에게 포인트를 나눠주기</p>
-                <button>포인트 보내기</button>
-            </div>
-            <div class ="tumblerAB">
-                <div class ="tumblerA">
-                    <div>
-                        <h1>Tumbler</h1>
-                        <h1>×</h1>  
-                        <h1>ㄸㄸㅆ</h1>
-                        <button>구매하기</button>
-                        <p>스테인리스 텀블러</p>
-                    </div>
-                    <div>
-                        <img src="../assets/TumblerA.png" alt = "텀블러A">
-                    </div>
-                    <div>
-                        <div class="circleone"></div>
-                        <div class="circletwo"></div>
-                        <div class="circlethree"></div>
-                        <div class="circlefour"></div>
+
+    <div style="width: 100vw; margin-top : 50px;">
+        <div style="width: 100%; display : flex; justify-content :center;">
+            <div class="content-goods">
+                <div class="goods-sendus-box">
+                    <img src="../assets/icon/sendus-icon.svg" alt="">
+                    <span>더 나은 발전을 위해 똑똑쓰에게 포인트를 나눠주기</span>
+                    <button>포인트 보내기</button>
+                </div>
+                <div class="banner">
+                    <div style="width: 100%; height : 100%;" class="container">
+                        <div class="text-box">
+                            <span class="title">똑똑한 환경생활하기</span>
+                            <div style="width: 100%; display:flex; justify-content : flex-end">
+                                <span class="content-span">똑똑스 이용하기.</span>
+                            </div>
+                        </div>
+                        <img src="../assets/icon/banner-text.svg" alt="">
                     </div>
                 </div>
-                <div class = "tumblerB">
-                    <div>
-                        <h1>Tumbler</h1>
-                        <h1>×</h1>  
-                        <h1>ㄸㄸㅆ</h1>
-                        <button>구매하기</button>
-                        <p>스테인리스 텀블러</p>
+                <div class="goods-itembox">
+                    <div style="display: flex; gap : 20px">
+                        <div class="goods-itembox-small">
+                            <div class="text-box">
+                                <div>
+                                    <span>Tumbler A</span>
+                                    <img src="../assets/icon/small-box-x.svg" alt="">
+                                    <span>ㄸㄸㅆ</span>
+                                    <button>구매하기</button>
+                                </div>
+                                <span>스테인리스 텀블러</span>
+                            </div>
+                            <div>
+                                <img src="../assets/TumblerA.png" alt="">
+                            </div>
+                            <div class="list">
+                                <ul>
+                                    <li style="background-color: #ffffff;"></li>
+                                    <li style="background-color: #3A5A40;"></li>
+                                    <li style="background-color: #588157;"></li>
+                                    <li style="background-color: #A3B18A; border : 1px solid #ffffff"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="goods-itembox-small">
+                            <div class="text-box">
+                                <div>
+                                    <span>Tumbler B</span>
+                                    <img src="../assets/icon/small-box-x.svg" alt="">
+                                    <span>ㄸㄸㅆ</span>
+                                    <button>구매하기</button>
+                                </div>
+                                <span>스테인리스 텀블러</span>
+                            </div>
+                            <div>
+                                <img src="../assets/TumblerB.png" alt="">
+                            </div>
+                            <div class="list">
+                                <ul>
+                                    <li style="background-color: #ffffff;"></li>
+                                    <li style="background-color: #3A5A40;"></li>
+                                    <li style="background-color: #588157;"></li>
+                                    <li style="background-color: #A3B18A; border : 1px solid #ffffff"></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <img src="../assets/TumblerB.png" alt = "텀블러B">
+
+                    <div class="goods-itembox-big">
+                        <div>
+                            <div class="text-box">
+                                <span>ECOBACK</span>
+                                <img src="../assets/icon/small-box-x-black.svg" alt="">
+                                <span>ㄸㄸㅆ</span>
+                            </div>
+                            <div style="width : 100%; display : flex; justify-content: flex-end;">
+                                <span style="color: #787878;">저가형 에코백</span>
+                            </div>
+                            <div style="width : 100%; display : flex; justify-content: flex-end;">
+                                <button style="color: #787878; border : 1px solid #787878" class="hover-a">구매하기</button>
+                            </div>
+                        </div>
+                        <img src="../assets/ecoback.png" alt="">
+                        <ul>
+                            <li style="background-color: #ffffff; border : 1px solid #1e1e1e;"></li>
+                            <li style="background-color: #3A5A40;"></li>
+                            <li style="background-color: #588157;"></li>
+                            <li style="background-color: #A3B18A;"></li>
+                        </ul>
                     </div>
-                    <div>
-                        <div class="circleone"></div>
-                        <div class="circletwo"></div>
-                        <div class="circlethree"></div>
-                        <div class="circlefour"></div>
-                    </div>
-                </div>
-            </div>
-            <div class ="echoplastic">
-                <div class = "ecoback">
-                    <div>
-                        <h1>ECOBACK  ×  ㄸㄸㅆ</h1>
-                        <p>저가형 에코백</p>
-                        <button>구매하기</button>
-                    </div>
-                    <div>
-                        <img src="../assets/ecoback.png" alt = "에코백">
-                    </div>
-                    <div>
-                        <div class="circleone"></div>
-                        <div class="circletwo"></div>
-                        <div class="circlethree"></div>
-                        <div class="circlefour"></div>
-                    </div>
-                </div>
-                <div class ="plastic">
-                    <div>
-                        <h1>다회용용기  ×  ㄸㄸㅆ</h1>
-                        <p>재사용 플라스틱 용기</p>
-                        <button>구매하기</button>
-                    </div>
-                    <div>
-                        <img src="../assets/ecoback.png" alt = "재사용 플라스틱">
-                    </div>
-                    <div>
-                        <div class="circleone"></div>
-                        <div class="circletwo"></div>
-                        <div class="circlethree"></div>
-                        <div class="circlefour"></div>
+
+                    <div class="goods-itembox-big" style="background-color: #DAD7CD; box-shadow : none;">
+                        <div>
+                            <div class="text-box" style="color: #ffffff;">
+                                <span>다회용용기</span>
+                                <img src="../assets/icon/small-box-x.svg" alt="">
+                                <span>ㄸㄸㅆ</span>
+                            </div>
+                            <div style="width : 100%; display : flex; justify-content: flex-end;">
+                                <span style="color: #ffffff;">재사용 플라스틱 용기</span>
+                            </div>
+                            <div style="width : 100%; display : flex; justify-content: flex-end;">
+                                <button style="color: #ffffff; border : 1px solid #ffffff" class="hover-b">구매하기</button>
+                            </div>
+                        </div>
+                        <img src="../assets/plasticbox.png" alt="">
+                        <ul>
+                            <li style="background-color: #ffffff; border : 1px solid #1e1e1e;"></li>
+                            <li style="background-color: #3A5A40;"></li>
+                            <li style="background-color: #588157;"></li>
+                            <li style="background-color: #A3B18A;"></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <hr class = "hrmargin"> 
-    <footer>
-        <div id = "footmargin">
-            <img src="../assets/SorSollogo.png" alt="SorSollogo">
-            <img src="../assets/SorSolfont.png" alt="SorSolfont">
-            <br>
-            <div class="input-wrapper">
-                <input type="text" placeholder="서비스를 이용하면서 불편하거나 좋은 피드백이 있다면 보내주세요.">
-                <button type="button">보내기</button>
-            </div> 
-            <div class = "footfont">
-                <p>Sorted solution</p>
-                <p>고객센터 | 010-1234-5678</p>
-                <p>메일 | soso@sorted.solution</p>
-            </div>
-            <div class="footfont">
-                <p>이용약관</p>
-                <p>개인정보처리방침</p>
-                <p>문의하기</p>
-            </div>
-            <p id ="lastfooter">2024 Sorted Solution. All rights reserved.</p>
-        </div>
-    </footer>
 </body>
 </html>
