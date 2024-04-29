@@ -77,6 +77,9 @@
        }
         
     }
+    .line-text {
+        font-size: 7px;;
+    }
     
     & .rank {
         width: 830px;
