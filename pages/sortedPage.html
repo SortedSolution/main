@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sorted</title>
+    <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/sorted.css">
     <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="../styles/menu.css">
@@ -25,12 +26,12 @@
                 </div>
             </div>
             <div class="menu-content">
-                <span><a href="./rankingPage.html">랭킹</a></span>
-                <span><a href="./communityPage.html">게시판</a></span>
-                <span><a href="./examplePage.html">소식</a></span>
-                <span><a href="./sortedPage.html">도움받기</a></span>
-                <span><a href="./goodsPage.html">상품</a></span>
-                <span><a href="./introductionPage.html">서비스 소개</a></span>
+                <span><a href="./rankingPage.html" style="color: #bbbbbb;">랭킹</a></span>
+                <span><a href="./communityPage.html" style="color: #bbbbbb;">게시판</a></span>
+                <span><a href="./examplePage.html" style="color: #bbbbbb;">소식</a></span>
+                <span><a href="./sortedPage.html" style="border-bottom: 1px solid #344E41;">도움받기</a></span>
+                <span><a href="./goodsPage.html" style="color: #bbbbbb;">상품</a></span>
+                <span><a href="./introductionPage.html" style="color: #bbbbbb;">서비스 소개</a></span>
             </div>
             <div class="menu-icon-right">
                 <img src="../assets/icon/menu-user.svg"/>
@@ -40,51 +41,104 @@
         </div>
     </div>
     
-    <img id = "sortedmainback" src = "../assets/sortedbackmain.png" alt="배경">
-    <div class = "main">
-        <div class ="sortedfiltermargin">
-            <p class ="filterp">Filter</p>
-            <div class = "sortedfilterdiv">
-                <p id ="clickbackground">전체</p>
-                <hr>
-                <p>분리배출 요령</p>
-                <hr>
-                <p>지역별 분리배출 요령</p>
-            </div>
+    <div style="width: 100vw; display : flex; justify-content : center; background-color : #A3B18A;">
+        <div style="width: 100%; display : flex; justify-content:space-between;">
+            <img src="../assets/left_leaf.png" alt="">
+            <img src="../assets/right_leaf.png" alt="">
         </div>
-        <div class = "colline"></div>
-        <div class = "boxtoptext">칼럼</div>
-        <div class = "box1"><img src = "../assets/papersorted.png" alt = "종이배출요령"><br>[종이/종이팩/박스] 분리배출 요령</div>
-        <div class = "box2"><img src = "../assets/vinylsorted.png" alt = "비닐배출요령"><br>[비닐] 분리배출 요령</div>
-        <div class = "box3"><img src = "../assets/plasticsorted.png" alt = "플라스틱배출요령"><br>[플라스틱] 분리배출 요령</div>
-        <div class = "box4"><img src = "../assets/cansorted.png" alt = "지구"><br>[캔고철류] 분리배출 요령</div>
-        <div class = "box5"><img src = "../assets/clothsorted.png" alt = "지구"><br>[의류/원단] 분리배출 요령</div>
-        <div class = "box6"><img src = "../assets/transplasticsorted.png" alt = "지구"><br>[투명 플라스틱] 분리배출 요령</div>
     </div>
-    <hr class = "hrmargin">
-    <footer>
-        <div>
-            <div id = "footmargin">
-                <img src="../assets/SorSollogo.png" alt="SorSollogo">
-                <img src="../assets/SorSolfont.png" alt="SorSolfont">
-                <br>
-                <div class="input-wrapper">
-                    <input type="text" placeholder="서비스를 이용하면서 불편하거나 좋은 피드백이 있다면 보내주세요.">
-                    <button type="button">보내기</button>
-                </div> 
-                <div class = "footfont">
-                    <p>Sorted solution</p>
-                    <p>고객센터 | 010-1234-5678</p>
-                    <p>메일 | soso@sorted.solution</p>
+
+    <div class="content" style="width: 100vw; display : flex; justify-content:center; background-color : #ffffff;">
+        <div class="wrap" style="width: 100%;">
+            <div class="filter-box">
+                <div class="filter-header">
+                    <img src="../assets/icon/filter-icon.svg" alt="">
+                    <span>Filter</span>
                 </div>
-                <div class="footfont">
-                    <p>이용약관</p>
-                    <p>개인정보처리방침</p>
-                    <p>문의하기</p>
+                <ul class="filter-ul">
+                    <li>
+                        <div class="filter-check" style="background-color: #344E41;"></div>
+                        <span style="color: #344E41;">전체</span>
+                    </li>
+                    <li>
+                        <div class="filter-check"></div>
+                        <span>단과대 별</span>
+                    </li>
+                    <li>
+                        <div class="filter-check"></div>
+                        <span>분리수거 품목 별</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="sorted-content">
+                <span>칼럼</span>
+                <div style="display: flex; gap : 20px;">
+                    <div class="sorted-content-box">
+                        <img src="../assets/papersorted.png" alt="">
+                        <span>[종이/종이팩/박스] 분리배출 요령</span>
+                    </div>
+                    <div class="sorted-content-box">
+                        <img src="../assets/vinylsorted.png" alt="">
+                        <span>[비닐] 분리배출 요령</span>
+                    </div>
+                    <div class="sorted-content-box">
+                        <img src="../assets/plasticsorted.png" alt="">
+                        <span>[플라스틱] 분리배출 요령</span>
+                    </div>
                 </div>
-                <p id ="lastfooter">2024 Sorted Solution. All rights reserved.</p>
+                <div style="display: flex; gap : 20px;">
+                    <div class="sorted-content-box">
+                        <img src="../assets/cansorted.png" alt="">
+                        <span>[캔고철류] 분리배출 요령</span>
+                    </div>
+                    <div class="sorted-content-box">
+                        <img src="../assets/clothsorted.png" alt="">
+                        <span>[의류/원단] 분리배출 요령</span>
+                    </div>
+                    <div class="sorted-content-box">
+                        <img src="../assets/transplasticsorted.png" alt="">
+                        <span>[투명 플라스틱] 따로 분리배출 하자!</span>
+                    </div>
+                </div>
             </div>
         </div>
-    </footer>
+        
+    </div>
+
+    <div style="width: 100vw; display : flex; justify-content : center;">
+        <div class="footer" style="width: 1000px">
+            <div class="company">
+                <img src="../assets/SorSollogo.png" alt="">
+                <img src="../assets/SorSolfont.png" alt="">
+            </div>
+            <div class="input">
+                <input type="text" placeholder="서비스를 이용하면서 불편하거나 좋은 피드백이 있다면 보내주세요.">
+                <button>보내기</button>
+            </div>
+    
+            <div class="footer-content">
+                <div class="footer-content-up">
+                    <span>Sorted Solution.</span>
+                    <div>
+                        <span>고객센터</span>
+                        <div></div>
+                        <span>010-1234-1234</span>
+                    </div>
+                    <div>
+                        <span>메일</span>
+                        <div></div>
+                        <span>soso@sorted.solution</span>
+                    </div>
+                </div>
+                <div class="footer-content-bottom">
+                    <span>이용약관</span>
+                    <span>개인정보처리방침</span>
+                    <span>문의하기</span>
+                </div>
+            </div>
+            <span>© 2024 Sorted Solution. All rights reserved.</span>
+        </div>
+    </div>
 </body>
 </html>
