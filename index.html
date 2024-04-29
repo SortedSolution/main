@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="./styles/main.css">
     <link rel="stylesheet" type="text/css" href="./styles/menu.css">
     <link rel="stylesheet" type="text/css" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
 <body>
     <div class="menu">
@@ -153,64 +154,249 @@
                     </div>
                 </div>
             </div>
-            <div class="help-community">
-                <div class="help layout-box">
-                    <div class = "box1"><img src = "./assets/plasticsorted.png" alt = "플라스틱배출요령"><p class="box-p">[플라스틱] 분리배출 요령</p></div>
-                    <div class = "box2"><img src = "./assets/vinylsorted.png" alt = "비닐배출요령"><p class="box-p">[비닐] 분리배출 요령</p></div>
-                    <div class = "box3"><img src = "./assets/papersorted.png" alt = "종이배출요령"><p class="box-p">[종이/종이팩/박스] 분리배출 요령</p></div>
+
+            <div class="sorted-community">
+                <div class="sorted layout-box scrollbar">
+                    <div class="sorted-box">
+                        <img src="./assets/plasticsorted.png" alt="">
+                        <span>[플라스틱] 분리배출 요령</span>
+                    </div>
+                    <div class="sorted-box">
+                        <img src="./assets/vinylsorted.png" alt="">
+                        <span>[비닐] 분리배출 요령</span>
+                    </div>
+                    <div class="sorted-box">
+                        <img src="./assets/papersorted.png" alt="">
+                        <span>[종이/종이팩/박스] 분리배출 요령</span>
+                    </div>
+                    <div class="sorted-box">
+                        <img src="./assets/cansorted.png" alt="">
+                        <span>[캔고철류] 분리배출 요령</span>
+                    </div>
+                    <div class="sorted-box">
+                        <img src="./assets/clothsorted.png" alt="">
+                        <span>[의류/원단] 분리배출 요령</span>
+                    </div>
+                    <div class="sorted-box">
+                        <img src="./assets/transplasticsorted.png" alt="">
+                        <span>[투명 플라스틱] 분리배출 요령</span>
+                    </div>
                 </div>
-                <div class="community layout-box" style="background-color: transparent;">
-                    <a href="./pages/goodsPage.html"><img class = "advertiseimg" src="./assets/advertiseimg.png" alt="광고 이미지"></a>
-                    <div class = "addpost">
-                        <div class ="postimgone"><img src = "./assets/postimg.svg" alt = "그림추가"></div>
-                        <div class ="postimgtwo"><img src = "./assets/postdelete.svg" alt = "삭제"></div>
-                        <div class ="postimgthree"><img class= "postimgthree-img" src = "./assets/postshare.svg" alt = "공유하기"></div>
-                        <div class ="addposttop">
-                            <img src = "./assets/home-addpost-myIcon.svg" alt = "본인아이콘">
-                            <p>Share your photos...</p>
-                        </div>
-                        <div>
-                            <hr>
-                        </div>
-                        <div class = "addposttag">
-                            <p class = "addposttag-p">태그 추가 : </p>
-                            <button id ="plasticbutton">#플라스틱</button>
-                            <button>#종이</button>
-                            <button>#유리병</button>
-                            <button id ="canbutton">#캔고철</button>
-                            <button>#스티로폼</button>
-                            <button>#비닐</button>
-                            <button>#폐건전지</button>
-                            <button>#음식물쓰레기</button>
-                            <button>+</button>
+
+                <div class="community">
+                    <div class="banner">
+                        <div class="banner-img">
+                            <div style="display: flex; padding : 40px; gap : 10px;">
+                                <div style="display: flex; flex-direction : column; align-items :flex-end; gap : 5px;">
+                                    <span style="font-size: 30px; font-weight : bold; color : #ffffff;">똑똑한 환경생활하기</span>
+                                    <span style="font-size: 15px; color : #bbbbbb;">포인트로 텀블러 받자!</span>
+                                </div>
+                                <button>구매하기</button>
+                            </div>
+                            <img src="./assets/icon/banner-text.svg" alt="" class="banner-text-img" style="margin-top: 10px;">
                         </div>
                     </div>
-                    <div class ="newhr">
-                        <hr>
-                    </div>
-                    <div class = "com1">
-                        <div class ="com1top">
-                            <img src = "./assets/home-com1-myIcon.svg" alt = "com1아이콘">
-                            <div class="com1toptxt">
-                                <h3><b>익명20182</b></h3>
-                                <p>똑똑공학 소속<br>2024.04.07</p>
+                    <div style="display: flex; flex-direction:column; gap : 10px;">
+                        <div class="community-write">
+                            <div class="community-write-content">
+                                <div class="community-write-content--left">
+                                    <div class="write-user">
+                                        <img src="./assets/home-user.png" alt="">
+                                    </div>
+                                    <input type="text" placeholder="Write your own content...">
+                                </div>
+                                <div class="community-write-content--right">
+                                    <div class="div-icon">
+                                        <div class="icon-togle">
+                                            <span>절약</span>
+                                            <img src="./assets/icon/down-green.svg" alt="">
+                                        </div>
+                                        <div class="icon-box">
+                                            <img src="./assets/icon/community-img-icon.svg" alt="">
+                                        </div>
+                                        <div class="icon-box">
+                                            <img src="./assets/icon/community-trash-icon.svg" alt="">
+                                        </div>
+                                        <div class="icon-box">
+                                            <img src="./assets/icon/community-up-icon.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="community-write-tag">
+                                <div>
+                                    <span class="tag-text">태그 추가 : </span>
+                                </div>
+                                <div class="tag-wrap">
+                                    <div class="tag">#플라스틱</div>
+                                    <div class="tag">#종이</div>
+                                    <div class="tag">#유리병</div>
+                                    <div class="tag">#캔고철</div>
+                                    <div class="tag">#스티로폼</div>
+                                    <div class="tag">#비닐</div>
+                                    <div class="tag">#폐건전지</div>
+                                    <div class="tag">#음식물쓰레기</div>
+                                    <div class="tag">+</div>
+                                </div>
                             </div>
                         </div>
-                        <div class ="com1middle"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when.</p></div>
-                        <div class = "com1picturetag">
-                            <img id = "com1picture" src = "./assets/com1picture.png" alt = "com1그림">
-                            <div class ="com1picturecircleone"></div>
-                            <div class ="com1picturecircletwo"></div>
-                            <div class ="com1picturecirclethree"></div>
-                            <button class = "com1pictureplastictag">#플라스틱</button>
-                            <button class = "com1picturebinyltag">#비닐</button>
-                            <button class = "com1picturepapertag">#종이</button>
+                        
+                        <div class="community-line">
+                            <div class="left-line"></div>
+                            <span class="line-text">새 게시물 업데이트</span>
+                            <div class="right-line"></div>
+                        </div>
+
+                        <div class="community-content">
+                            <div class="community-post">
+                                <div class="community-post-img" style="width: 800px; height : 600px; background-image: url(../assets/com1picture.png);">
+                                    <div class="community-post-header">
+                                        <div class="set-div">
+                                            <img src="../assets/icon/community-setting-icon.svg" alt="">
+                                        </div>
+                                        <div class="user">
+                                            <div class="write-user" style="background-color: #344E41;">
+                                                <img src="../assets/icon/community-user.svg" alt="">
+                                            </div>
+                                            <div class="post-user">
+                                                <div class="username">익명</div>
+                                                <div class="userset">
+                                                    <span>똑똑공학소속</span>
+                                                    <span>2024.04.07</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="post-content">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when.
+                                        </div>
+                                    </div>
+                                    <div class="community-post-center">
+                                        <img src="../assets/icon/community-left-icon.svg" alt="">
+                                        <img src="../assets/icon/community-right-icon.svg" alt="">
+                                    </div>
+                                    <div class="community-post-footer">
+                                        <div class="right-box">
+                                            <img src="../assets/icon/community-img-numbering.svg" alt="">
+                                            <div class="tag-box">
+                                                <div class="tag" style="background-color: #588157;">#플라스틱</div>
+                                                <div class="tag" style="background-color: #588157;">#유리병</div>
+                                                <div class="tag" style="background-color: #588157;">#폐건전지</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="community-post-log">
+                                    <div class="log-keyword-div">
+                                        <img src="../assets/icon/community-like.svg" alt="">
+                                        <span>좋아요</span>
+                                    </div>
+                                    <div class="log-keyword-div">
+                                        <img src="../assets/icon/community-comment.svg" alt="">
+                                        <span>댓글</span>
+                                        <span>8</span>
+                                    </div>
+                                    <div class="log-keyword-div">
+                                        <img src="../assets/icon/community-see.svg" alt="">
+                                        <span>조회</span>
+                                        <span>40</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="community-post">
+                                <div class="community-post-img" style="width: 800px; height : 600px; background-image: url(../assets/com2picture.png);">
+                                    <div class="community-post-header">
+                                        <div class="set-div">
+                                            <img src="../assets/icon/community-setting-icon.svg" alt="">
+                                        </div>
+                                        <div class="user">
+                                            <div class="write-user" style="background-color: #588157;">
+                                                <img src="../assets/icon/community-user.svg" alt="">
+                                            </div>
+                                            <div class="post-user">
+                                                <div class="username">익명</div>
+                                                <div class="userset">
+                                                    <span>똑똑공학소속</span>
+                                                    <span>2024.04.07</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="post-content">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when.
+                                        </div>
+                                    </div>
+                                    <div class="community-post-center">
+                                        <img src="../assets/icon/community-left-icon.svg" alt="">
+                                        <img src="../assets/icon/community-right-icon.svg" alt="">
+                                    </div>
+                                    <div class="community-post-footer">
+                                        <div class="right-box">
+                                            <img src="../assets/icon/community-img-numbering.svg" alt="">
+                                            <div class="tag-box">
+                                                <div class="tag" style="background-color: #588157;">#플라스틱</div>
+                                                <div class="tag" style="background-color: #588157;">#유리병</div>
+                                                <div class="tag" style="background-color: #588157;">#폐건전지</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="community-post-log">
+                                    <div class="log-keyword-div">
+                                        <img src="../assets/icon/community-like.svg" alt="">
+                                        <span>좋아요</span>
+                                    </div>
+                                    <div class="log-keyword-div">
+                                        <img src="../assets/icon/community-comment.svg" alt="">
+                                        <span>댓글</span>
+                                        <span>8</span>
+                                    </div>
+                                    <div class="log-keyword-div">
+                                        <img src="../assets/icon/community-see.svg" alt="">
+                                        <span>조회</span>
+                                        <span>40</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     
                 </div>
+                
+            </div>
+    </div>
+</div>
+<div style="width: 100vw; display : flex; justify-content:center;">
+    <div class="footer">
+        <div class="company">
+            <img src="../assets/SorSollogo.png" alt="">
+            <img src="../assets/SorSolfont.png" alt="">
+        </div>
+        <div class="input">
+            <input type="text" placeholder="서비스를 이용하면서 불편하거나 좋은 피드백이 있다면 보내주세요.">
+            <button>보내기</button>
+        </div>
+        <div class="footer-content">
+            <div class="footer-content-up">
+                <span>Sorted Solution.</span>
+                <div>
+                    <span>고객센터</span>
+                    <div></div>
+                    <span>010-1234-1234</span>
+                </div>
+                <div>
+                    <span>메일</span>
+                    <div></div>
+                    <span>soso@sorted.solution</span>
+                </div>
+            </div>
+            <div class="footer-content-bottom">
+                <span>이용약관</span>
+                <span>개인정보처리방침</span>
+                <span>문의하기</span>
             </div>
         </div>
+        <span>© 2024 Sorted Solution. All rights reserved.</span>
     </div>
+</div>
+
 </body>
 </html>
