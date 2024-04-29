@@ -8,6 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="../styles/menu.css">
     <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/main.css">
 </head>
 <body>
     <div class="menu">
@@ -25,12 +26,12 @@
                 </div>
             </div>
             <div class="menu-content">
-                <span><a href="./rankingPage.html">랭킹</a></span>
-                <span><a href="./communityPage.html">게시판</a></span>
-                <span><a href="./examplePage.html">소식</a></span>
-                <span><a href="./sortedPage.html">도움받기</a></span>
-                <span><a href="./goodsPage.html">상품</a></span>
-                <span><a href="./introductionPage.html">서비스 소개</a></span>
+                <span><a href="./rankingPage.html" style="color: #bbbbbb;">랭킹</a></span>
+                <span><a href="./communityPage.html" style="color: #bbbbbb;">게시판</a></span>
+                <span><a href="./examplePage.html" style="color: #bbbbbb;">소식</a></span>
+                <span><a href="./sortedPage.html" style="color: #bbbbbb;">도움받기</a></span>
+                <span><a href="./goodsPage.html" style="color: #bbbbbb;">상품</a></span>
+                <span><a href="./introductionPage.html" style="border-bottom: 1px solid #588157;">서비스 소개</a></span>
             </div>
             <div class="menu-icon-right">
                 <img src="../assets/icon/menu-user.svg"/>
@@ -39,95 +40,224 @@
             </div>
         </div>
     </div>
-    <div id="service">
-        <div class="text-content">
-            <div class="text-wrap">
-                <p class ="samepfont"><b><h1>똑똑쓰</h1></b></p>
-                <p>더 나은 환경을 만들기 위한 <b><span class ="samepfont">환경대전</span></b></p>
-                <p>소통을 위한 <b><span class="samepfont">커뮤니티</span></b></p>
-                <button>서비스 바로 가기</button>
-            </div>
-        </div>
-        <img src="../assets/servicelogo.png" alt="서비스 로고">
-        <div id ="bottom-text">어떤 서비스로 이루어져있는지 궁금하지 않으신가요?</div>
-    </div>
-    
-    
-    <div id ="point"></div>
-    <div class ="community">
-        <h1>게시판</h1>
-        <p>쓰레기를 방법에 맞게 올바르게 버리거나 기발한 쓰레기 배출 방법을 커뮤니티에 공유하고 포인트를 받아요 !</p>
-        <a href="./communityPage.html"><img class = communityimg src="../assets/linkCommunity.png" alt="커뮤니티 로고"></a>
-        <h3>랭킹 페이지 알아보기 <img src = "../assets/arrowup.png" alt = "화살표"></h3>
-    </div>
-    <div class ="ranking">
-        <h1>랭킹</h1>
-        <p>얻은 포인트를 바탕으로 학교 별이나 단과대 별, 학과 별로 경쟁하며 포인트를 얻기 위해 다같이 노력해요 !</p>
-        <div class = "rankingmiddle">
-            <a href="./rankingPage.html"><img src="../assets/rankinglogo.png" alt="랭킹 로고"></a>
-            <div class="ranking-text-container"> 
-                <div id = "ranking-firstp">
-                    <p>개인, 학교, 단과대 등의 모든 카테고리의</p>
-                    <p>간단한 등수 및 점수가 표시되어</p>
-                    <p>나타나요.</p>
+    <div class="content" style="padding: 0; height : 1080px">
+        <div class="intro-content-center">
+            <div class="service">
+                <div class="center">
+                    <div class="left">
+                        <span class="title">똑똑쓰</span>
+                        <div class="p-div">
+                            <div>
+                                <span class="span-left">더 나은 환경을 만들기 위한</span>
+                                <span class="span-right">환경 대전</span>
+                            </div>
+                            <div>
+                                <span class="span-left">소통을 위한</span>
+                                <span class="span-right">커뮤니티</span>
+                            </div>
+                        </div>
+                        <button>서비스 바로가기</button>
+                    </div>
+                    <img src="../assets/servicelogo.png" alt="">
                 </div>
-                <div id = "ranking-secondp">
-                    <p>위에서 원하는 카테고리를 클릭하면 해</p>
-                    <p>당 카테고리에 대한 세부적인 데이터가</p>
-                    <p>표시되어 나타나요.</p>
+                <div class="service-footer">
+                    <span>어떤 서비스로 이루어져있는지 궁금하지 않으신가요 ?</span>
                 </div>
             </div>
+
+            <div class="service" style="background-color: #ffffff;">
+                <div class="center" style="gap : 100px;">
+                    <img src="../assets/introduction-2.png" alt="">
+                    <div class="text-sect2">
+                        <div class="column" style="align-items: flex-start;">
+                            <span style="font-weight: bold; font-size : 25px;">똑똑쓰</span>
+                            <span style="font-size: 20px; color : #bbbbbb;">똑똑한 사람들의 똑똑한 쓰레기 버리기</span>
+                        </div>
+                        <div class="column">
+                            <span>쓰레기를 방법에 맞게 올바르게 버리거나 기발한 쓰레기 배출</span>
+                            <span>방법을 커뮤니티에 공유하고 포인트를 받아요!</span>
+                        </div>
+                        <div class="column">
+                            <span>얻은 포인트를 바탕으로 학교 별이나 단과대 별, 학과 별로</span>
+                            <span>경쟁하며 포인트를 얻기 위해 다같이 노력해요 !</span>
+                        </div>
+                        <div>
+                            <div style="display: flex; gap : 20px;">
+                                <div class="column">
+                                    <span>포인트가 쌓이며 학교는 더욱 깨끗해지며 나아가 주변을</span>
+                                    <span>아름답게 변화해요!</span>
+                                </div>
+                                <img src="../assets/icon/arrow.svg" alt="" class="arrow">
+                                <div class="column">
+                                    <span>쌓인 포인트는 굿즈로</span>
+                                    <span>교환해요</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="service-footer">
+                    <div style="display: flex; align-items : center; gap : 20px;">
+                        <span>각각의 기능 알아보기</span>
+                        <img src="../assets/icon/downdown.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="service" style="background-color: #588157;">
+                <div class="center" style="flex-direction:column; gap : 100px;">
+                    <div class="column" style="justify-content: center; align-items : center; gap : 30px;">
+                        <span style="font-size: 50px; color : #ffffff; font-weight : bold;">게시판</span>
+                        <span style="font-size: 20px; color : #ffffff;">쓰레기를 방법에 맞게 올바르게 버리거나 기발한 쓰레기 배출 방법을 커뮤니티에 공유하고 포인트를 받아요 !</span>
+                    </div>
+                    <div style="display: flex; position :relative; gap : 100px;">
+                        <img src="../assets/introduction-community.png" alt="">
+                        <img src="../assets/introduce-part.png" alt="" style="position: absolute; left : 750px; top : 80px;">
+                        <img src="../assets/introduce-part.png" alt="" style="position: absolute; left : 750px; top : 180px;">
+                        <div style="display: flex; flex-direction : column; gap : 30px; margin-top : 40px;">
+                            <span style="font-size: 20px; color : #ffffff; text-align : center;">
+                                해당하는 태그를 골라<br>
+                                인증 사진, 번뜩이는 아이디어<br>
+                                게시물 등을 올리고<br>
+                                포인트를 받아요!<br>
+                            </span>
+                            <span style="font-size: 20px; color : #ffffff; text-align : center;">
+                               다른 사람이 올린 게시물이나<br>
+                                본인 게시물에 좋아요와<br>
+                                댓글 기능을 사용할 수<br>
+                                있어요!<br>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-footer">
+                    <div style="display: flex; align-items : center; gap : 20px;">
+                        <span>랭킹 페이지 알아보기</span>
+                        <img src="../assets/icon/downdown.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="service" style="background-color: #ffffff;">
+                <div class="center" style="flex-direction:column; gap : 100px;">
+                   <div class="column" style="color: #787878; align-items : center; gap : 20px;">
+                        <span style="font-size: 50px; font-weight : bold;">랭킹</span>
+                        <span>얻은 포인트를 바탕으로 학교 별이나 단과대, 학과 별로 경쟁하며 포인트를 얻기 위해 다같이 노력해요!</span>
+                   </div>
+                   <div style="display: flex; position :relative; gap : 100px;">
+                        <img src="../assets/intro-rank.png" alt="">
+                        <img src="../assets/introduce-part.png" alt="" style="position: absolute; left : 750px; top : 150px;">
+                        <img src="../assets/introduce-part.png" alt="" style="position: absolute; left : 750px; top : 300px;">
+                        <div style="font-size: 20px; color : #787878; gap : 90px;" class="column">
+                            <span style="text-align : center;">
+                                개인, 학교, 단과대 등의 모든 카테고리의<br>
+                                간단한 등수 및 점수가 표시되어<br>
+                                나타나요.
+                            </span>
+                            <span style="text-align : center;">
+                                위에서 원하는 카테고리를 클릭하면<br>
+                                해당 카테고리에 대한 세부적인 데이터가<br>
+                                표시되어 나타나요
+                            </span>
+                        </div>
+                   </div>
+                </div>
+                <div class="service-footer">
+                    <div style="display: flex; align-items : center; gap : 20px;">
+                        <span>도움받기 페이지 알아보기</span>
+                        <img src="../assets/icon/downdown.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="service" style="background-color: #a3b18a;">
+                <div class="center" style="flex-direction:column; gap : 100px;">
+                   <div class="column" style="color: #ffffff; align-items : center; gap : 20px;">
+                        <span style="font-size: 50px; font-weight : bold;">도움받기</span>
+                        <span>원하는 쓰레기 버리는 방법을 찾아볼 수 있고 더 좋은 방법을 알게 될 수 있어요. 외국인 유학생을 위해 설계했어요!</span>
+                   </div>
+                   <div style="display: flex; position :relative; gap : 180px;">
+                        <div style="font-size: 20px; color : #ffffff; gap : 120px;" class="column">
+                            <span style="text-align : center;">
+                                필터를 통해 원하는 방법을<br>
+                                찾을 수 있어요
+                            </span>
+                            <span style="text-align : center;">
+                                종이, 비닐 등 다양한 분리수거 방법이<br>
+                                있는 게시물 중에서 원하는 게시물을<br>
+                                클릭해서 확인해요!
+                            </span>
+                            
+                        </div>
+                        <img src="../assets/arrow-right.png" alt="" style="position: absolute; left : 300px; top : 120px;">
+                        <img src="../assets/arrow-right.png" alt="" style="position: absolute; left : 300px; top : 300px;">
+                        <img src="../assets/intro-help.png" alt="">
+                   </div>
+                </div>
+                <div class="service-footer">
+                    <div style="display: flex; align-items : center; gap : 20px;">
+                        <span>포인트 상점 페이지 알아보기</span>
+                        <img src="../assets/icon/downdown.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="service" style="background-color: #dad7cd;">
+                <div class="center" style="flex-direction:column; gap : 100px;">
+                   <div class="column" style="color: #ffffff; align-items : center; gap : 20px;">
+                        <span style="font-size: 50px; font-weight : bold;">포인트 상점</span>
+                        <span>포인트를 모아 다양한 환경을 위한 상품으로 교환해요!</span>
+                   </div>
+                   <div style="display: flex; position :relative; gap : 50px;">
+                        <img src="../assets/intro-store.png" alt="">
+                        <span style="text-align: center; font-size : 20px; color : #ffffff;">
+                            포인트를 열심히 모아서<br>
+                            텀블러, 에코백 등 다양한<br>
+                            똑똑쓰만의 상품으로 교환할 수 있어요!
+                        </span>
+                   </div>
+                </div>
+                
+            </div>
+            <div style="width: 100vw; display : flex; justify-content : center">
+                <div class="footer">
+                    <div class="company">
+                        <img src="../assets/SorSollogo.png" alt="">
+                        <img src="../assets/SorSolfont.png" alt="">
+                    </div>
+                    <div class="input">
+                        <input type="text" placeholder="서비스를 이용하면서 불편하거나 좋은 피드백이 있다면 보내주세요.">
+                        <button>보내기</button>
+                    </div>
+                    <div class="footer-content">
+                        <div class="footer-content-up">
+                            <span>Sorted Solution.</span>
+                            <div>
+                                <span>고객센터</span>
+                                <div></div>
+                                <span>010-1234-1234</span>
+                            </div>
+                            <div>
+                                <span>메일</span>
+                                <div></div>
+                                <span>soso@sorted.solution</span>
+                            </div>
+                        </div>
+                        <div class="footer-content-bottom">
+                            <span>이용약관</span>
+                            <span>개인정보처리방침</span>
+                            <span>문의하기</span>
+                        </div>
+                    </div>
+                    <span>© 2024 Sorted Solution. All rights reserved.</span>
+                </div>
+            </div>
         </div>
-        <h3>도움받기 페이지 알아보기 <img src = "../assets/arrowup.png" alt = "화살표"></h3>
+        
+        </div>
     </div>
-    <div class ="sorted">
-        <h1>도움받기</h1>
-        <p>원하는 쓰레기 버리는 방법을 찾아볼 수 있고 더 좋은 방법을 알게 될 수 있어요. 외국인 유학생을 위해 설계했어요!</p>
-        <a href="./sortedPage.html"><img id = "sortedimg" src="../assets/introductionsorted.png" alt="분리배출 로고"></a>
-        <h3>포인트 상점 페이지 알아보기 <img src = "../assets/arrowup.png" alt = "화살표"></h3>
-        <div class="sorted-text-container"> 
-            <div id = "sorted-firstp">
-                <p>필터를 통해 원하는 방법을</p>
-                <p>찾을 수 있어요.</p>
-            </div>
-            <div id = "sorted-secondp">
-                <p>종이, 비닐 등 다양한 분리수거 방법이</p>
-                <p>있는 게시물 중에 원하는 게시물을</p>
-                <p>클릭해서 확인해요!</p>
-            </div>
-        </div>
-    </div>
-    <div class ="pointstore">
-        <h1>포인트상점</h1>
-        <p>포인트를 모아 다양한 환경을 위한 상품으로 교환해요 !</p>
-        <a href="./goodsPage.html"><img src="../assets/pointstorelogo.png" alt="포인트상점 로고"></a>
-        <div id ="pointstorep">
-            <p>포인트를 열심히 모아서</p>
-            <p>텀블러, 에코백 등 다양한</p>
-            <p>똑똑쓰만의 상품으로 교환할 수 있어요!</p>
-        </div>
-    </div>
-    <footer>
-        <div id = "footmargin">
-            <img src="../assets/SorSollogo.png" alt="SorSollogo">
-            <img src="../assets/SorSolfont.png" alt="SorSolfont">
-            <br>
-            <div class="input-wrapper">
-                <input type="text" placeholder="서비스를 이용하면서 불편하거나 좋은 피드백이 있다면 보내주세요.">
-                <button type="button">보내기</button>
-            </div> 
-            <div class = "footfont">
-                <p>Sorted solution</p>
-                <p>고객센터 | 010-1234-5678</p>
-                <p>메일 | soso@sorted.solution</p>
-            </div>
-            <div class="footfont">
-                <p>이용약관</p>
-                <p>개인정보처리방침</p>
-                <p>문의하기</p>
-            </div>
-            <p id ="lastfooter">2024 Sorted Solution. All rights reserved.</p>
-        </div>
-    </footer>
+    
+
 </body>
 </html>
