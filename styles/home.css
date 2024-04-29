@@ -299,6 +299,7 @@ div.community-write {
                 display: flex;
                 gap: 5px;
                 font-size: 10px;
+                width: 40px;
                 color: #344E41;
                 align-items: center;
                 padding: 2px 10px 2px 15px;
