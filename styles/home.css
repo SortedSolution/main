@@ -65,13 +65,14 @@
        .user-bottom {
             width: 160px;
             display: flex;
-            justify-content: flex-end;
             font-size: 5px;
             color: #787878;
+            justify-content: flex-end;
             .user-set {
                 display: flex;
+                font-size: 7px;
                 gap: 1px;
-                width: 30px;
+                width: 40px;
             }
        }
         

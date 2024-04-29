@@ -48,6 +48,7 @@
 }
 
 .main-icon-text {
+    text-decoration: none;
     mark {
         background-color: transparent;
         font-weight: bold;
@@ -72,4 +73,5 @@
         height: 18px;
     }
 }
+
 
