@@ -295,7 +295,7 @@ div.community-write {
             .icon-togle {
                 background-color: #DAD7CD;
                 border-radius: 20px;
-                font-size: 10px;
+                font-size: 8px;
                 display: flex;
                 gap: 5px;
                 font-size: 10px;
@@ -349,7 +349,7 @@ div.tag {
     padding: 8px 18px;
     background-color: #D9D9D9;
     color: #ffffff;
-    font-size: 10px;
+    font-size: 8px;
 }
 div.tag:hover {
     background-color: #588157;
